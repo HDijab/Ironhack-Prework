@@ -1,0 +1,160 @@
+body {
+	font-family: arial, sans-serif;
+}
+
+header {
+	height: 50px;
+	width: 100%;
+}
+
+article {
+	height: 650px;
+	width: 100%;
+	text-align: center;
+}
+
+article>div {
+	padding-top: 132px;
+}
+
+footer {
+	height: 50px;
+	width: 100%;
+}
+
+img {
+    height: 92px;
+    width: 272px;
+}
+
+#searchbar {
+	height: 38px;
+	width: 584px;
+	margin: 26px 30%;
+	border: 1px solid #D9D9D9;
+	position: relative;
+}
+
+#searchbar:hover {
+	border: 1px solid #B3B3B3;
+}
+
+.button {
+	height: 34px;
+	width: 91.75px;
+    line-height: 35px;
+	background: -webkit-linear-gradient(top,#F5F5F5,#F1F1F1);
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 2px;
+    color: #757575;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 6px auto;
+    display: inline-block;
+    padding: 0 16px;
+    text-align: center;
+    text-decoration: none !important;
+}
+
+a:hover.button{
+    background: -webkit-linear-gradient(top,#F8F8F8,#F1F1F1);
+    background-color: #F8F8F8;
+    border: 1px solid #C6C6C6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+#lucky {
+	width: 108.578px;
+	margin-left: 4px;
+}
+
+#micro {
+	height: 24px;
+    width: 24px;
+    position: absolute;
+    margin-top: -12px;
+    top: 50%;
+    right: 8px;
+}
+
+#options {
+	height: 30px;
+	width: 30px;
+	margin: -11px 10px;
+	background-image: url("optionsicon.png");
+	background-size: 528px 68px;
+	background-position: -132px -38px;
+	opacity: .55;
+	cursor: default;
+}
+
+#options:hover {
+	opacity: 1;
+}
+
+#sign {
+    line-height: 28px;
+    padding: 0 12px;
+    margin-right: 22px;
+    border-radius: 2px;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: -webkit-linear-gradient(top,#4387FD,#4683EA);
+    color: white;
+    cursor: default;
+    text-decoration: none;
+}
+
+#sign:hover {
+	box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+
+#leftbar {
+	float: left;
+	margin-left: 20px;
+}
+
+#rightbar {
+	float: right;
+	margin-right: 20px;
+}
+
+.footerlinks {
+    color: #666666;
+    margin: 8px 12px 0px;
+}
+
+.links {
+	opacity: .75;
+	margin: 0px 1px;
+}
+
+header div {
+	text-align: right;
+	margin: 16px 0px;
+}
+
+footer>div {
+	height: 40px;
+	width: 100%;
+	background: #F2F2F2;
+    border-top: 1px solid #E4E4E4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+a {
+    display: inline-block;
+	font-size: 13px;
+	line-height: 24px;
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}

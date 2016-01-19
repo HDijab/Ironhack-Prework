@@ -1,0 +1,139 @@
+body {
+	background-color: white;
+	margin: 0px;
+}
+
+header {
+	background-color: black;
+	margin: 0px;
+	height: 120px;
+	width: 100%;
+}
+
+h1 {
+	font-family: Impact, sans-serif;
+	color: #E90228;
+	text-align: center;
+	margin: 0px;
+	font-size: 100px;
+	letter-spacing: 10px;
+	-webkit-font-smoothing: antialiased;
+}
+
+#name {
+	font-family: Gill Sans, sans-serif;
+	color: lightgrey;
+	text-align: right;
+	margin-right: 0px;
+	font-size: 30px;
+	letter-spacing: 0px;
+	font-weight: 100;
+	-webkit-font-smoothing: antialiased;
+}
+
+nav {
+	float: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	margin: 7.5px 0px 0px 0px;
+	padding-left: 5px;
+}
+
+li {
+	background-color: black;
+	font-family: Gill Sans, sans-serif;
+	font-size: 2em;
+	font-weight: lighter;
+	-webkit-font-smoothing: antialiased;
+	text-align: center;
+	color: white;
+	letter-spacing: 2.5px;
+	display: inline;
+	padding: 5px 50px 5px 50px;
+	margin: 0px 5px 0px 5px;
+}
+
+#profilepic {
+	float: right;
+}
+
+article{
+	float: left;
+	width: 50%;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+h2 {
+	font-family: Impact, sans-serif;
+	color: #E90228;
+	text-align: left;
+	margin: 0px;
+	font-size: 3em;
+	letter-spacing: 5px;
+	-webkit-font-smoothing: antialiased;
+}
+
+#capital {
+	font-family: Impact, sans-serif;
+	color: #E90228;
+	text-align: left;
+	margin: 0px;
+	font-size: 2em;
+	-webkit-font-smoothing: antialiased;
+}
+
+p {
+	font-family: Arial, sans-serif;
+	font-weight: lighter;
+	font-size: 1em;
+	letter-spacing: 2px;
+	text-align: justify;
+	margin: 0px;
+	line-height: 175%;
+	width: 110%;
+	-webkit-font-smoothing: antialiased;
+}
+
+#icons {
+	clear: both;
+	position: relative;
+	top: 50px;
+	background-color: #BCBDC1;
+	height: 35px;
+}
+
+#bars {
+	clear: left;
+	position: relative;
+	top: 197px;
+}
+
+footer img {
+	position: relative;
+	left: 40%;
+	bottom: 20px;
+}
+
+footer div {
+	background-color: black;
+	margin: 5px 0px 0px 0px;
+	width: 80.4%;
+	height: 10px;
+}
+
+#copyright {
+	font-family: Gill Sans, sans-serif;
+	color: black;
+	margin: 10%;
+	position: relative;
+	top: 30px;
+	font-size: 1.5em;
+	font-weight: lighter;
+	-webkit-font-smoothing: antialiased;
+}
